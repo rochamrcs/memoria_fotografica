@@ -15,5 +15,33 @@ Este projeto é um playground para testar tecnologias, explorar boas práticas e
 
 ## 🔥 Recursos  
 
-✅ Upload e armazenamento de fotos  
-✅ Interface simples e intuitiva  
+✅ Upload e armazenamento de fotos
+
+## 🚀 Como Rodar o Projeto
+
+Siga os passos abaixo para executar o projeto localmente com Docker:
+
+### 🧱 Pré-requisitos
+
+- [Docker](https://www.docker.com/) instalados na sua máquina.
+
+### ▶️ Rodando o Projeto com Docker
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/seu-usuario/memoria_fotografica.git
+cd memoria_fotografica
+```
+
+2. Construa os containers:
+
+```bash
+docker compose build
+```
+
+3. Suba o ambiente:
+
+```bash
+docker compose up
+```
